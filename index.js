@@ -30,11 +30,8 @@ function resetPin() {
     }
 }
 
-
-let option;
-
 while (true) {
-  option = prompt("ATM e xos geldiniz. Funksiyani secin (1 - Balansin yoxlanisi, 2 - Hesabdan cixaris, 3 - Hesaba Medaxil, 4 - PIN-i deyisdirmek, 5 - Cixis):");
+ let option = prompt("ATM e xos geldiniz. Funksiyani secin (1 - Balansin yoxlanisi, 2 - Hesabdan cixaris, 3 - Hesaba Medaxil, 4 - PIN-i deyisdirmek, 5 - Cixis):");
 
   if (option === "1") {
     viewBalance();
@@ -53,5 +50,3 @@ while (true) {
     console.log("Duzgun reqem secin");
   }
 }
-
-
